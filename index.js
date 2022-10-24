@@ -4,7 +4,7 @@ const path = require("path");
 
 const port = process.env.PORT || 3000;
 app.get("/ola", function (req, res) {
-	res.send("ola");
+	res.send("ola \n ");
 });
 
 app.get("/", function (req, res) {
@@ -17,6 +17,7 @@ app.get("/react", function (req, res) {
 		title: "Titulo de algo que pode ser muito foda",
 		problema: "Falta de escopo e design",
 		objetivo: "desenvolver network no mercado de trabalho",
+		backToPrincipal: "https://xpres-not-avalible.herokuapp.com/",
 	});
 });
 
